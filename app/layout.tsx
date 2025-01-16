@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Libre_Baskerville, Rubik, Space_Mono } from "next/font/google";
 import "./globals.css";
+import Navbar from "./components/Navbar";
 
 const libreBaskerville = Libre_Baskerville({
   variable: "--font-libre-baskerville",
@@ -37,6 +38,7 @@ export default function RootLayout({
       <body
         className={`${libreBaskerville.variable} ${rubik.variable} ${spaceMono.variable} antialiased`}
       >
+        <Navbar />
         {children}
       </body>
     </html>

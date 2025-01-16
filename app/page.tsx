@@ -1,5 +1,6 @@
 import * as motion from "motion/react-client"
-import ChatBubble from "./components/chatbubble"
+import ChatBubble from "./components/Chatbubble"
+import Navbar from "./components/Navbar";
 
 export default function Home() {
   return (
