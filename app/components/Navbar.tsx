@@ -4,31 +4,37 @@ import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
 import * as motion from "motion/react-client"
+import { useEffect, useState } from "react";
 
 const Navbar = () => {
     const pathname = usePathname();
+    const [isFirstRender, setIsFirstRender] = useState(true);
+
+    useEffect(() => {
+        setIsFirstRender(false);
+    }, []);
 
     const activePage = (path: string) => {
         return pathname === path
-            ? "text-green-600 font-bold"
-            : "text-gray-600 hover:text-green-600"
+            ? "text-blue font-bold"
+            : "text-jet hover:text-blue"
     };
 
     return (
         <motion.nav
-            initial={{ opacity: 0, y: -10 }}
+            initial={isFirstRender ? { opacity: 0, y: -100 } : false}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 1, delay: 0.2, ease: "easeOut" }}
+            transition={{ type: "spring", stiffness: 100, damping: 25, delay: .1 }}
             className="w-full px-4 sm:px-8 py-4">
             <div className="flex justify-between items-center max-w-7xl mx-auto">
                 {/* Signature */}
                 <div className="flex-shrink-0">
                     <Link href="/" aria-label="Home">
-                        <div className="w-10 h-10 bg-gray-300 rounded-full"></div>
+                        <div className="w-10 h-10 bg-brown rounded-full"></div>
                     </Link>
                 </div>
                 {/* Nav links */}
-                <div className="flex flex-1 justify-center space-x-8 text-sm font-mono">
+                <div className="flex flex-1 justify-center space-x-8 text-base font-mono">
                     <Link
                         href="/pages/projects"
                         className={`inline-flex items-center transition-colors duration-150 ${activePage("/pages/projects")}`}

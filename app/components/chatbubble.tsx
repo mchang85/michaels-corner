@@ -3,7 +3,11 @@ import * as motion from "motion/react-client"
 
 const ChatBubble = () => {
     return (
-        <motion.div className="inline-flex items-center bg-[#FFFFFF] rounded-2xl px-4 pt-3 pb-2">
+        <motion.div
+            initial={{ opacity: 0, y: 25 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ type: "spring", stiffness: 300, damping: 10, delay: 1.5 }}
+            className="inline-flex items-center bg-[#FFFFFF] rounded-2xl px-4 pt-3 pb-2">
             <div className="flex gap-1.5">
                 {[0, 1, 2].map((i) => (
                     <motion.div

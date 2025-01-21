@@ -11,6 +11,10 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        jet: "#373737",
+        pink: "#E85D75",
+        brown: "#A37871",
+        blue: "#4381C1"
       },
       fontFamily: {
         sans: ["var(--font-rubik)"],

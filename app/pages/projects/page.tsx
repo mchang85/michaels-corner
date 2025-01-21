@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export default function About() {
+export default function Projects() {
     return (
         <main>
             <div>
@@ -17,5 +17,5 @@ export default function About() {
                 </div>
             </div>
         </main>
-    )
+    );
 }

@@ -7,7 +7,7 @@ const libreBaskerville = Libre_Baskerville({
   variable: "--font-libre-baskerville",
   subsets: ["latin"],
   style: ["normal", "italic"],
-  weight: "400"
+  weight: ["400", "700"],
 });
 
 const rubik = Rubik({
@@ -19,7 +19,7 @@ const rubik = Rubik({
 const spaceMono = Space_Mono({
   variable: "--font-space-mono",
   subsets: ["latin"],
-  weight: "400"
+  weight: ["400", "700"],
 });
 
 
