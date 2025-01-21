@@ -14,7 +14,8 @@ export default {
         jet: "#373737",
         pink: "#E85D75",
         brown: "#A37871",
-        blue: "#4381C1"
+        blue: "#4381C1",
+        white: "#EEF0EB"
       },
       fontFamily: {
         sans: ["var(--font-rubik)"],
