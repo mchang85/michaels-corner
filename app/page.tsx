@@ -13,7 +13,7 @@ export default function Home() {
           Michael Chang
         </motion.div>
         <motion.div
-          initial={{ opacity: 0, y: -100 }}
+          initial={{ opacity: 0, y: -80 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ type: "spring", stiffness: 100, damping: 25, delay: .5 }}
           className="w-52 sm:w-96 font-sans text-xl leading-6 mt-5"

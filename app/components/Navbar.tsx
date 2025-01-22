@@ -37,19 +37,19 @@ const Navbar = () => {
                 <div className="flex flex-1 justify-center space-x-8 text-base font-mono">
                     <Link
                         href="/pages/projects"
-                        className={`inline-flex items-center transition-colors duration-150 ${activePage("/pages/projects")}`}
+                        className={`inline-flex items-center transition-all duration-150 hover:-translate-y-0.5 hover:text-blue ${activePage("/pages/projects")}`}
                     >
                         PROJECTS
                     </Link>
                     <Link
                         href="/pages/extras"
-                        className={`inline-flex items-center transition-colors duration-150 ${activePage("/pages/extras")}`}
+                        className={`inline-flex items-center transition-all duration-150 hover:-translate-y-0.5 hover:text-blue ${activePage("/pages/extras")}`}
                     >
                         EXTRAS
                     </Link>
                     <Link
                         href="/pages/about"
-                        className={`inline-flex items-center transition-colors duration-150 ${activePage("/pages/about")}`}
+                        className={`inline-flex items-center transition-all duration-150 hover:-translate-y-0.5 hover:text-blue ${activePage("/pages/about")}`}
                     >
                         ABOUT
                     </Link>
