@@ -11,7 +11,7 @@ export default function Projects() {
             >
                 {/* Boba */}
                 <Project
-                    title="Boba Shop Game Project"
+                    title="Boba Shop Game Project 🧋"
                     timeframe="Self-Led, Started Nov. 2024"
                     type="Game Design/Game Development"
                     imageSrc="/images/projects/boba-idle.gif"

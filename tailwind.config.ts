@@ -12,6 +12,7 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
         jet: "#373737",
+        lightjet: "#7F7F7F",
         pink: "#E85D75",
         brown: "#A37871",
         blue: "#4381C1",
