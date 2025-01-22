@@ -15,6 +15,8 @@ export default {
         pink: "#E85D75",
         brown: "#A37871",
         blue: "#4381C1",
+        darkblue: "#336699",
+        lightblue: "#D7E4F2",
         white: "#EEF0EB"
       },
       fontFamily: {
