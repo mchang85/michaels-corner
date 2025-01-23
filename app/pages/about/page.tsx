@@ -33,7 +33,7 @@ export default function About() {
                         >
                             👋
                         </motion.span>
-                        <span className="italic"> i&apos;'m michael!</span>
+                        <span className="italic"> i&apos;m michael!</span>
                     </motion.h1>
                     <motion.p
                         initial={{ opacity: 0, x: 100 }}

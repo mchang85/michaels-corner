@@ -193,7 +193,7 @@ export default function Extras() {
                                     height={200}
                                     className="rounded-lg"
                                 />
-                                <p className="text-left font-sans mt-2 text-sm">it&apos;'s not living (if it&apos;'s not with you)</p>
+                                <p className="text-left font-sans mt-2 text-sm">it&apos;s not living (if it&apos;s not with you)</p>
                                 <p className="text-left font-sans text-sm text-lightjet">the 1975</p>
                             </div>
                             <div>
