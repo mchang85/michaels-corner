@@ -49,7 +49,7 @@ export default function Extras() {
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ type: "spring", stiffness: 100, damping: 25, delay: .7 }}
                         className="mb-12">
-                        <h2 className="font-sans text-2xl mb-4">fujifilm x-t30 II w/ 35mm f/2</h2>
+                        <h2 className="font-sans text-2xl mb-4 p-3">fujifilm x-t30 II w/ 35mm f/2</h2>
                         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 p-4">
                             <div>
                                 <Image
@@ -117,8 +117,8 @@ export default function Extras() {
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ type: "spring", stiffness: 100, damping: 25, delay: .7 }}
                         className="mb-12">
-                        <h2 className="font-sans text-2xl mb-4">my current rotation</h2>
-                        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 p-4">
+                        <h2 className="font-sans text-2xl mb-4 p-3">my current rotation</h2>
+                        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 justify-items-center gap-4 p-4">
                             <div>
                                 <Image
                                     src="/images/music/fred-again.webp"

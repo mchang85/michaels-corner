@@ -1,4 +1,4 @@
-interface ProjectProps {
+interface ProjectData {
     title: string;
     timeframe: string;
     type: string;
@@ -14,7 +14,7 @@ const Project = ({
     imageSrc,
     link,
     description,
-}: ProjectProps) => {
+}: ProjectData) => {
     return (
         <div className="w-full max-w-3xl mx-auto mb-20">
             <a
