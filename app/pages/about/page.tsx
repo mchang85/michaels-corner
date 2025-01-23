@@ -41,9 +41,10 @@ export default function About() {
                         transition={{ type: "spring", stiffness: 100, damping: 25, delay: 0.3 }}
                     >
                         I fell in love with the creative world at an early age. From the charm of classic video games
-                        to the engaging narratives of feature films, I have always been captivated by how media can transport
-                        us into entirely new worlds and experiences. There is so much value that comes with consuming a
-                        great piece of media, in whatever form it may be in, as nothing beats that feeling of an unforgettable experience.
+                        to the engaging narratives of feature films, I have always been fascinated by how media can transport
+                        us into entirely new worlds and experiences. I believe consuming a great piece of media in any
+                        form can be invaluable, because little can rival that feeling of being fully immersed in
+                        an unforgettable story.
                     </motion.p>
 
                     <motion.p
@@ -51,8 +52,8 @@ export default function About() {
                         animate={{ opacity: 1, x: 0 }}
                         transition={{ type: "spring", stiffness: 100, damping: 25, delay: 0.5 }}
                     >
-                        I have made it my goal to become a creator of these experiences, in order to make
-                        others feel the same way and experience every moment with childlike-wonder.
+                        Inspired by this, I have set my goal to create experiences that evoke the same feeling of wonder.
+                        My mission is to craft immersive and thoughtful designs that are both purposeful and memorable.
                     </motion.p>
 
                     <motion.p
