@@ -1,4 +1,4 @@
-import Project from "@/app/components/Project";
+import Project from "../../components/Project";
 import * as motion from "motion/react-client"
 
 export default function Projects() {
