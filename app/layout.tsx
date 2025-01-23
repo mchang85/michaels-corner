@@ -2,6 +2,10 @@ import type { Metadata } from "next";
 import { Libre_Baskerville, Rubik, Space_Mono } from "next/font/google";
 import "./globals.css";
 import Navbar from "./components/Navbar";
+import { Analytics } from "@vercel/analytics/react"
+import { SpeedInsights } from "@vercel/speed-insights/next"
+
+
 
 const libreBaskerville = Libre_Baskerville({
   variable: "--font-libre-baskerville",
@@ -40,6 +44,8 @@ export default function RootLayout({
       >
         <Navbar />
         {children}
+        <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );
