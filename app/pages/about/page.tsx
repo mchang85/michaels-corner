@@ -40,11 +40,13 @@ export default function About() {
                         animate={{ opacity: 1, x: 0 }}
                         transition={{ type: "spring", stiffness: 100, damping: 25, delay: 0.3 }}
                     >
-                        I fell in love with the creative world at an early age. From the charm of classic video games
-                        to the engaging narratives of feature films, I have always been fascinated by how media can transport
-                        us into entirely new worlds and experiences. I believe consuming a great piece of media in any
-                        form can be invaluable, because little can rival that feeling of being fully immersed in
-                        an unforgettable story.
+                        I fell in love with the world of art, media, and technology at an early age.
+                        From the charm of classic video games to the captivating narratives of feature films,
+                        I have always been fascinated by the feeling of being transported to entirely new worlds.
+                        Consuming a great piece of media—no matter the form—is invaluable, as few things can compare to
+                        the feeling of being fully immersed in an unforgettable experience.
+
+
                     </motion.p>
 
                     <motion.p
@@ -52,8 +54,9 @@ export default function About() {
                         animate={{ opacity: 1, x: 0 }}
                         transition={{ type: "spring", stiffness: 100, damping: 25, delay: 0.5 }}
                     >
-                        Inspired by this, I have set my goal to create experiences that evoke the same feeling of wonder.
-                        My mission is to craft immersive and thoughtful designs that are both purposeful and memorable.
+                        My passions have led me to explore paths in programming, ui/ux design, and more ways to create moments that leave lasting impressions.
+                        I enjoy working at the bridge between creative and techinical fields, am continually seeking new tools, techniques, and inspiration
+                        to refine my skills and bring my visions to life.
                     </motion.p>
 
                     <motion.p
