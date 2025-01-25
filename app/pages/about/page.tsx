@@ -41,10 +41,9 @@ export default function About() {
                         transition={{ type: "spring", stiffness: 100, damping: 25, delay: 0.3 }}
                     >
                         I fell in love with the world of art, media, and technology at an early age.
+                        These mediums often work together to transport us into new worlds and settings.
                         From the charm of classic video games to the captivating narratives of feature films,
-                        I have always been fascinated by the feeling of being transported to entirely new worlds.
-                        Consuming a great piece of media—no matter the form—is invaluable, as few things can compare to
-                        the feeling of being fully immersed in an unforgettable experience.
+                        nothing beats the feeling of being fully immersed in the moment.
 
 
                     </motion.p>
@@ -55,7 +54,7 @@ export default function About() {
                         transition={{ type: "spring", stiffness: 100, damping: 25, delay: 0.5 }}
                     >
                         My passions have led me to explore paths in programming, ui/ux design, and more ways to create moments that leave lasting impressions.
-                        I enjoy working at the bridge between creative and techinical fields, am continually seeking new tools, techniques, and inspiration
+                        I enjoy working at the bridge between creative and techinical fields, and am continually seeking new tools, techniques, and inspiration
                         to refine my skills and bring my visions to life.
                     </motion.p>
 
