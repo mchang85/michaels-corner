@@ -22,10 +22,10 @@ export default function About() {
                 {/* Paragraph */}
                 <motion.div className="font-sans text-brown leading-relaxed max-w-lg space-y-6">
                     <motion.h1
-                        initial={{ opacity: 0, y: -100 }}
-                        animate={{ opacity: 1, y: 0 }}
-                        transition={{ type: "spring", stiffness: 100, damping: 25, delay: 0.3 }}
-                        className="font-[fafo] text-5xl md:text-6xl text-red">
+                        initial={{ opacity: 0, x: 100 }}
+                        animate={{ opacity: 1, x: 0 }}
+                        transition={{ type: "spring", stiffness: 100, damping: 25, delay: 0.2 }}
+                        className="font-[fafo] text-5xl md:text-6xl text-red text-center sm:text-left">
                         <motion.span
                             animate={{ rotate: [0, 15, -15, 15, 0] }}
                             transition={{ duration: 2, ease: "easeInOut", delay: 1 }}
