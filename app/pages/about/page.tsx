@@ -4,13 +4,13 @@ import * as motion from "motion/react-client"
 export default function About() {
     return (
         <main className="flex items-center justify-center py-12">
-            <div className="flex items-center justify-center max-w-7xl w-full h-full p-6 space-x-20">
+            <div className="flex flex-col sm:flex-row items-center justify-center max-w-7xl w-full h-full p-6 space-y-6 sm:space-x-20 sm:space-y-2">
                 {/* Portrait */}
                 <motion.div
                     initial={{ opacity: 0, x: -100 }}
                     animate={{ opacity: 1, x: 0 }}
                     transition={{ type: "spring", stiffness: 100, damping: 25, delay: .3 }}
-                    className="flex-shrink-0">
+                    className="flex-shrink-0 w-64 sm:w-auto">
                     <Image
                         src="/images/portrait.webp"
                         width={500}
@@ -25,7 +25,7 @@ export default function About() {
                         initial={{ opacity: 0, y: -100 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ type: "spring", stiffness: 100, damping: 25, delay: 0.3 }}
-                        className="font-[fafo] text-4xl md:text-6xl text-red">
+                        className="font-[fafo] text-5xl md:text-6xl text-red">
                         <motion.span
                             animate={{ rotate: [0, 15, -15, 15, 0] }}
                             transition={{ duration: 2, ease: "easeInOut", delay: 1 }}

@@ -16,7 +16,7 @@ const Project = ({
     description,
 }: ProjectData) => {
     return (
-        <div className="w-full max-w-3xl mx-auto mb-20">
+        <div className="w-full max-w-3xl mx-auto mb-20 px-4 sm:px-0">
             <a
                 href={link}
                 target="_blank"
@@ -29,7 +29,7 @@ const Project = ({
                             shadow-sm hover:shadow-lg overflow-hidden">
                     {/* Image */}
                     <div
-                        className="w-full h-96 bg-cover bg-center rounded-t-lg"
+                        className="w-full h-44 sm:h-96 bg-cover bg-center rounded-t-lg"
                         style={{ backgroundImage: `url(${imageSrc})` }}
                         aria-label={title}
                         role="img"
@@ -37,16 +37,16 @@ const Project = ({
                     {/* Label */}
                     <div className="p-6">
                         <div className="bg-white py-3 px-4 rounded-lg flex flex-col items-center gap-1 mb-4">
-                            <h3 className="text-4xl font-[fafo] font-bold text-brown">{title}</h3>
-                            <span className="text-brown font-mono text-md">
+                            <h3 className="text-xl sm:text-4xl font-[fafo] font-bold text-brown">{title}</h3>
+                            <span className="text-brown font-mono text-xs sm:text-md">
                                 {timeframe}
                             </span>
-                            <span className="text-red font-mono text-sm">
+                            <span className="text-red font-mono text-xs sm:text-sm">
                                 {type}
                             </span>
                         </div>
                         {/* Description */}
-                        <p className="text-brown text-lg leading-relaxed font-sans">
+                        <p className="text-brown text-sm sm:text-lg leading-relaxed font-sans">
                             {description}
                         </p>
                     </div>

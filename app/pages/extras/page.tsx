@@ -13,7 +13,7 @@ export default function Extras() {
                     initial={{ opacity: 0, y: -20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ type: "spring", stiffness: 100, damping: 25, delay: .3 }}
-                    className="text-5xl font-bold font-sans text-center mb-8">
+                    className="text-4xl sm:text-5xl font-bold font-sans text-center mb-8">
                     <span className="font-[fafo]">my view of the </span>
                     🌎
                 </motion.h2>
@@ -49,7 +49,7 @@ export default function Extras() {
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ type: "spring", stiffness: 100, damping: 25, delay: .7 }}
                         className="mb-12">
-                        <h2 className="font-mono text-xl mb-2 p-3">fujifilm x-t30 II w/ 35mm f/2</h2>
+                        <h2 className="font-mono text-lg sm:text-xl mb-2 p-3">fujifilm x-t30 II w/ 35mm f/2</h2>
                         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 p-4">
                             <div>
                                 <Image
@@ -117,8 +117,8 @@ export default function Extras() {
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ type: "spring", stiffness: 100, damping: 25, delay: .7 }}
                         className="mb-12">
-                        <h2 className="font-mono text-2xl mb-4 p-3">current rotation</h2>
-                        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 justify-items-center gap-4 p-4">
+                        <h2 className="font-mono text-lg sm:text-xl mb-4 p-3">current rotation</h2>
+                        <div className="grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 justify-items-center gap-4 p-4">
                             <div>
                                 <Image
                                     src="/images/music/fred-again.webp"
