@@ -24,9 +24,9 @@ const Project = ({
                 className="block"
             >
                 {/* Project Card */}
-                <div className="bg-jet bg-opacity-5 backdrop-blur-sm rounded-lg 
-                            hover:scale-[1.01] transition-all duration-300 ease-out 
-                            shadow-sm hover:shadow-md overflow-hidden">
+                <div className="bg-black bg-opacity-5 rounded-lg 
+                            hover:scale-[1.02] transition-all duration-300 ease-out 
+                            shadow-sm hover:shadow-lg overflow-hidden">
                     {/* Image */}
                     <div
                         className="w-full h-96 bg-cover bg-center rounded-t-lg"
@@ -37,16 +37,16 @@ const Project = ({
                     {/* Label */}
                     <div className="p-6">
                         <div className="bg-white py-3 px-4 rounded-lg flex flex-col items-center gap-1 mb-4">
-                            <h3 className="text-4xl font-sans font-bold">{title}</h3>
-                            <span className="text-jet font-mono text-md">
+                            <h3 className="text-4xl font-[fafo] font-bold text-brown">{title}</h3>
+                            <span className="text-brown font-mono text-md">
                                 {timeframe}
                             </span>
-                            <span className="text-blue font-mono text-sm">
+                            <span className="text-red font-mono text-sm">
                                 {type}
                             </span>
                         </div>
                         {/* Description */}
-                        <p className="text-jet text-lg leading-relaxed font-sans">
+                        <p className="text-brown text-lg leading-relaxed font-sans">
                             {description}
                         </p>
                     </div>

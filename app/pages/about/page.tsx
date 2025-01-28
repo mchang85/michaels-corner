@@ -16,16 +16,16 @@ export default function About() {
                         width={500}
                         height={800}
                         alt="Michael Portrait"
-                        className="rounded-3xl object-contain"
+                        className="rounded-3xl object-contain border-4 border-red"
                     />
                 </motion.div>
                 {/* Paragraph */}
-                <motion.div className="font-sans text-jet leading-relaxed max-w-lg space-y-6">
+                <motion.div className="font-sans text-brown leading-relaxed max-w-lg space-y-6">
                     <motion.h1
                         initial={{ opacity: 0, y: -100 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ type: "spring", stiffness: 100, damping: 25, delay: 0.3 }}
-                        className="font-sans text-4xl md:text-6xl text-jet">
+                        className="font-[fafo] text-4xl md:text-6xl text-red">
                         <motion.span
                             animate={{ rotate: [0, 15, -15, 15, 0] }}
                             transition={{ duration: 2, ease: "easeInOut", delay: 1 }}
@@ -33,7 +33,7 @@ export default function About() {
                         >
                             👋
                         </motion.span>
-                        <span className="italic"> i&apos;m michael!</span>
+                        <span> i&apos;m michael!</span>
                     </motion.h1>
                     <motion.p
                         initial={{ opacity: 0, x: 100 }}
@@ -41,7 +41,7 @@ export default function About() {
                         transition={{ type: "spring", stiffness: 100, damping: 25, delay: 0.3 }}
                     >
                         I fell in love with the world of art, media, and technology at an early age.
-                        These mediums often work together to transport us into new worlds and settings.
+                        The way these mediums work together seamlessly to transport us into new worlds and settings is something I have always been inspired by.
                         From the charm of classic video games to the captivating narratives of feature films,
                         nothing beats the feeling of being fully immersed in the moment.
 
@@ -53,8 +53,9 @@ export default function About() {
                         animate={{ opacity: 1, x: 0 }}
                         transition={{ type: "spring", stiffness: 100, damping: 25, delay: 0.5 }}
                     >
-                        My passions have led me to explore paths in programming, ui/ux design, and more ways to create moments that leave lasting impressions.
-                        I enjoy working at the bridge between creative and techinical fields, and am continually seeking new tools, techniques, and inspiration
+
+                        These passions have led me to explore paths in programming, ui/ux design, and more ways to create moments that leave lasting impressions.
+                        I enjoy working at the bridge between creative and techinical fields, and am constantly seeking new tools, techniques, and ideas
                         to refine my skills and bring my visions to life.
                     </motion.p>
 

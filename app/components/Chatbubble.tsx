@@ -7,7 +7,7 @@ const ChatBubble = () => {
             initial={{ opacity: 0, y: 25 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ type: "spring", stiffness: 300, damping: 10, delay: 1.5 }}
-            className="inline-flex items-center bg-[#FFFFFF] rounded-2xl px-4 pt-3 pb-2">
+            className="inline-flex items-center bg-[#FFFFFF] rounded-2xl px-4 pt-3 pb-2 border border-red">
             <div className="flex gap-1.5">
                 {[0, 1, 2].map((i) => (
                     <motion.div
@@ -19,7 +19,7 @@ const ChatBubble = () => {
                             ease: "easeInOut",
                             delay: i * 0.25
                         }}
-                        className="w-1.5 h-1.5 bg-[#BAC2C9] rounded-full"
+                        className="w-1.5 h-1.5 bg-tan rounded-full"
                     />
                 ))}
             </div>
