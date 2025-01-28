@@ -1,7 +1,6 @@
 "use client"
 
 import Link from "next/link";
-import Image from "next/image";
 import { usePathname } from "next/navigation";
 import * as motion from "motion/react-client"
 import { useEffect, useState } from "react";
