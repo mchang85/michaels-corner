@@ -4,6 +4,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import * as motion from "motion/react-client"
 import { useEffect, useState } from "react";
+import Image from "next/image";
 
 const Navbar = () => {
     const pathname = usePathname();
@@ -68,7 +69,14 @@ const Navbar = () => {
                 {/* Logo */}
                 <div className="flex-shrink-0">
                     <Link href="/" aria-label="Home">
-                        <div className="w-10 h-10 bg-red rounded-full"></div>
+                        <Image
+                            src="/images/logo.webp"
+                            alt="Logo"
+                            width={75}
+                            height={75}
+                            quality={100}
+                        />
+
                     </Link>
                 </div>
                 {/* Mobile Hamburger */}
