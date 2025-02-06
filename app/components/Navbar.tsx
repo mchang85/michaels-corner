@@ -17,13 +17,13 @@ const Navbar = () => {
 
     const activePage = (path: string) => {
         return pathname === path
-            ? "text-red font-bold -translate-y-0.5"
-            : "text-brown hover:text-red"
+            ? "text-blue font-bold -translate-y-0.5"
+            : "text-black"
     };
 
     const LinkedInIcon = () => (
         <svg
-            className="hover:fill-red hover:scale-110 transition-all duration-150"
+            className="hover:fill-blue hover:scale-110 transition-all duration-150"
             xmlns="http://www.w3.org/2000/svg"
             width="25"
             height="25"
@@ -35,7 +35,7 @@ const Navbar = () => {
 
     const GithubIcon = () => (
         <svg
-            className="hover:fill-red hover:scale-110 transition-all duration-150"
+            className="hover:fill-blue hover:scale-110 transition-all duration-150"
             xmlns="http://www.w3.org/2000/svg"
             width="25"
             height="25"
@@ -47,7 +47,7 @@ const Navbar = () => {
 
     const EmailIcon = () => (
         <svg
-            className="hover:fill-red hover:scale-110 transition-all duration-150"
+            className="hover:fill-blue hover:scale-110 transition-all duration-150"
             xmlns="http://www.w3.org/2000/svg"
             width="25"
             height="25"
@@ -86,7 +86,7 @@ const Navbar = () => {
                     aria-label="Toggle menu"
                 >
                     <svg
-                        className="w-6 h-6 fill-brown"
+                        className="w-6 h-6 fill-black"
                         viewBox="0 0 24 24"
                     >
                         {isMenuOpen ? (
@@ -100,19 +100,19 @@ const Navbar = () => {
                 <div className="hidden md:flex flex-1 justify-center space-x-8 text-base font-mono">
                     <Link
                         href="/pages/projects"
-                        className={`inline-flex items-center transition-all duration-150 hover:text-red ${activePage("/pages/projects")}`}
+                        className={`inline-flex items-center transition-all duration-150 hover:text-blue ${activePage("/pages/projects")}`}
                     >
                         PROJECTS
                     </Link>
                     <Link
                         href="/pages/extras"
-                        className={`inline-flex items-center transition-all duration-150 hover:text-red ${activePage("/pages/extras")}`}
+                        className={`inline-flex items-center transition-all duration-150 hover:text-blue ${activePage("/pages/extras")}`}
                     >
                         EXTRAS
                     </Link>
                     <Link
                         href="/pages/about"
-                        className={`inline-flex items-center transition-all duration-150 hover:text-red ${activePage("/pages/about")}`}
+                        className={`inline-flex items-center transition-all duration-150 hover:text-blue ${activePage("/pages/about")}`}
                     >
                         ABOUT
                     </Link>

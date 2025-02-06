@@ -7,7 +7,7 @@ export default function Extras() {
     const [activeTab, setActiveTab] = useState("photo");
 
     return (
-        <main className="min-h-screen text-brown">
+        <main className="min-h-screen text-black">
             <div className="container mx-auto p-4">
                 <motion.h2
                     initial={{ opacity: 0, y: -20 }}
@@ -27,14 +27,14 @@ export default function Extras() {
                     <button
                         onClick={() => setActiveTab("photo")}
                         className={`font-sans font-medium px-4 py-2 rounded-full transition-colors duration-150 
-            ${activeTab === "photo" ? "bg-red text-white" : "text-brown hover:bg-tan hover:text-white"}`}
+            ${activeTab === "photo" ? "bg-blue text-white" : "text-black hover:bg-grey hover:text-white"}`}
                     >
                         photography 📷
                     </button>
                     <button
                         onClick={() => setActiveTab("music")}
                         className={`text-lg font-sans font-medium px-4 py-2 rounded-full transition-colors duration-150 
-            ${activeTab === "music" ? "bg-red text-white" : "text-brown hover:bg-tan hover:text-white"}`}
+            ${activeTab === "music" ? "bg-blue text-white" : "text-black hover:bg-grey hover:text-white"}`}
                     >
                         music 🎧
                     </button>

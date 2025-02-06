@@ -16,8 +16,8 @@ export default function Projects() {
                     type="Game Design/Game Development"
                     imageSrc="/images/projects/boba-idle.gif"
                     link="https://snowy-leopon-ad7.notion.site/Boba-Shop-Game-Project-183363d62eb380979e70d5ff5b7b62d2?pvs=4"
-                    description="Currently working as the sole developer on an arcade-style video game 
-                    that simulates working in a boba shop, inspired by my part-time work experience."
+                    description="Developing an arcade-style interactive game to increase employee engagement and streamline training process. 
+                    Inspired by my part-time work experience."
                 />
             </motion.div>
         </main>

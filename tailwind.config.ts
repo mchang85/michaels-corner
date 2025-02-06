@@ -11,11 +11,13 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
-        black: "#252422",
-        brown: "#403D39",
-        tan: "#CCC5B9",
-        red: "#EB5E28",
-        white: "#FFFCF2"
+        black: "#353535",
+        green: "#3C6E71",
+        grey: "#D9D9D9",
+        blue: "#284B63",
+        white: "#ffffff",
+        red: "#D65790",
+        orange: "#EE9480"
       },
       fontFamily: {
         sans: ["var(--font-rubik)"],

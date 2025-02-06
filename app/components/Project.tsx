@@ -24,7 +24,7 @@ const Project = ({
                 className="block"
             >
                 {/* Project Card */}
-                <div className="bg-black bg-opacity-5 rounded-lg 
+                <div className="bg-grey bg-opacity-40 rounded-lg 
                             hover:scale-[1.02] transition-all duration-300 ease-out 
                             shadow-sm hover:shadow-lg overflow-hidden">
                     {/* Image */}
@@ -37,16 +37,16 @@ const Project = ({
                     {/* Label */}
                     <div className="p-6">
                         <div className="bg-white py-3 px-4 rounded-lg flex flex-col items-center gap-1 mb-4">
-                            <h3 className="text-xl sm:text-4xl font-[fafo] font-bold text-brown">{title}</h3>
-                            <span className="text-brown font-mono text-xs sm:text-md">
+                            <h3 className="text-black text-xl sm:text-4xl font-[fafo] font-bold">{title}</h3>
+                            <span className="text-black font-mono text-xs sm:text-md">
                                 {timeframe}
                             </span>
-                            <span className="text-red font-mono text-xs sm:text-sm">
+                            <span className="text-blue font-mono text-xs sm:text-sm">
                                 {type}
                             </span>
                         </div>
                         {/* Description */}
-                        <p className="text-brown text-sm sm:text-lg leading-relaxed font-sans">
+                        <p className="text-black text-sm sm:text-lg leading-relaxed font-sans">
                             {description}
                         </p>
                     </div>
