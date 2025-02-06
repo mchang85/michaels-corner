@@ -46,7 +46,7 @@ export default function Home() {
             >
               <ul className="space-y-2 text-black text-lg text-center sm:text-left">
                 <li className="font-sans">○ ux & human-centered design</li>
-                <li className="font-sans">○ research and Usability testing</li>
+                <li className="font-sans">○ research and usability testing</li>
                 <li className="font-sans">○ software and web development</li>
                 <li className="font-sans">○ data and user insight</li>
               </ul>

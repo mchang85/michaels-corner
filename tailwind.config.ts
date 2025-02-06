@@ -20,7 +20,7 @@ export default {
         orange: "#EE9480"
       },
       fontFamily: {
-        sans: ["var(--font-rubik)"],
+        sans: ["var(--font-dmsans)"],
         serif: ["var(--font-libre-baskerville)"],
         mono: ["var(--font-space-mono)"]
       }

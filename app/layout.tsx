@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Libre_Baskerville, Rubik, Space_Mono } from "next/font/google";
+import { Libre_Baskerville, DM_Sans, Space_Mono } from "next/font/google";
 import localFont from "next/font/local";
 import "./globals.css";
 import Navbar from "./components/Navbar";
@@ -15,8 +15,8 @@ const libreBaskerville = Libre_Baskerville({
   weight: ["400", "700"],
 });
 
-const rubik = Rubik({
-  variable: "--font-rubik",
+const dmsans = DM_Sans({
+  variable: "--font-dmsans",
   subsets: ["latin"],
   weight: ["400", "700"],
 });
@@ -30,11 +30,11 @@ const spaceMono = Space_Mono({
 const fafo = localFont({
   src: [
     {
-      path: "./fafo-sans-regular.woff2",
+      path: "./fonts/fafo-sans-bold.woff2",
       weight: "400"
     },
     {
-      path: "./fafo-sans-bold.woff2",
+      path: "./fonts/fafo-sans-bold.woff2",
       weight: "700"
     }
   ],
@@ -54,7 +54,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${libreBaskerville.variable} ${rubik.variable} ${spaceMono.variable} ${fafo.variable} antialiased`}
+        className={`${libreBaskerville.variable} ${dmsans.variable} ${spaceMono.variable} ${fafo.variable} antialiased`}
       >
         <Navbar />
         {children}

@@ -11,12 +11,12 @@ export default function Projects() {
             >
                 {/* Boba */}
                 <Project
-                    title="Boba Shop Game Project 🧋"
+                    title="🧋 Game Project"
                     timeframe="Self-Led, Started Nov. 2024"
                     type="Game Design/Game Development"
                     imageSrc="/images/projects/boba-idle.gif"
                     link="https://snowy-leopon-ad7.notion.site/Boba-Shop-Game-Project-183363d62eb380979e70d5ff5b7b62d2?pvs=4"
-                    description="Developing an arcade-style interactive game to increase employee engagement and streamline training process. 
+                    description="Developing an arcade-style game in Godot to streamline training process and increase employee engagement. 
                     Inspired by my part-time work experience."
                 />
             </motion.div>

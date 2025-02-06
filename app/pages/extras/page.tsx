@@ -14,7 +14,7 @@ export default function Extras() {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ type: "spring", stiffness: 100, damping: 25, delay: .3 }}
                     className="text-4xl sm:text-5xl font-bold font-sans text-center mb-8">
-                    <span className="font-[fafo]">my view of the </span>
+                    <span className="text-blue font-[fafo]">my view of the </span>
                     🌎
                 </motion.h2>
 
@@ -50,8 +50,8 @@ export default function Extras() {
                         transition={{ type: "spring", stiffness: 100, damping: 25, delay: .7 }}
                         className="mb-12">
                         <h2 className="font-mono text-lg sm:text-xl mb-2 p-3">fujifilm x-t30 II w/ 35mm f/2</h2>
-                        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 p-4">
-                            <div>
+                        <div className="columns-1 sm:columns-2 lg:columns-3 gap-4 p-4">
+                            <div className="mb-4">
                                 <Image
                                     src="/images/photography/dana-point.webp"
                                     alt="Photo of Dana Point Harbor"
@@ -60,7 +60,7 @@ export default function Extras() {
                                     className="w-full h-auto rounded-lg object-cover"
                                 />
                             </div>
-                            <div>
+                            <div className="mb-4">
                                 <Image
                                     src="/images/photography/sf.webp"
                                     alt="Photo of San Francisco Sky"
@@ -69,17 +69,25 @@ export default function Extras() {
                                     className="w-full h-auto rounded-lg object-cover"
                                 />
                             </div>
-                            <div>
+                            <div className="mb-4">
                                 <Image
                                     src="/images/photography/joshua-tree.webp"
                                     alt="Photo of Joshua Tree Rocks"
+                                    width={500}
+                                    height={800}
+                                    className="w-full h-auto rounded-lg object-cover"
+                                />
+                            </div>
+                            <div className="mb-4">
+                                <Image
+                                    src="/images/photography/dana-point3.webp"
+                                    alt="Photo of Dana Point Sunset"
                                     width={500}
                                     height={300}
                                     className="w-full h-auto rounded-lg object-cover"
                                 />
                             </div>
-
-                            <div>
+                            <div className="mb-4">
                                 <Image
                                     src="/images/photography/dana-point2.webp"
                                     alt="Photo of Dana Point Neighborhood"
@@ -88,7 +96,7 @@ export default function Extras() {
                                     className="w-full h-auto rounded-lg object-cover"
                                 />
                             </div>
-                            <div>
+                            <div className="mb-4">
                                 <Image
                                     src="/images/photography/joshua-tree2.webp"
                                     alt="Photo of Joshua Tree"
@@ -97,7 +105,7 @@ export default function Extras() {
                                     className="w-full h-auto rounded-lg object-cover"
                                 />
                             </div>
-                            <div>
+                            <div className="mb-4">
                                 <Image
                                     src="/images/photography/corona-del-mar.webp"
                                     alt="Photo of Corona Del Mar Beach"
