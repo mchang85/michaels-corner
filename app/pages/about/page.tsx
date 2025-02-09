@@ -41,7 +41,7 @@ export default function About() {
                         transition={{ type: "spring", stiffness: 100, damping: 25, delay: 0.3 }}
                     >
                         I fell in
-                        <span className="text-red">love</span>
+                        <span className="text-red"> love </span>
                         with the world of art, media, and technology at an early age.
                         The way these mediums work together to transport us into new worlds and settings is something I have always been inspired by.
                         From the charm of classic video games to the captivating narratives of feature films,

@@ -3,8 +3,8 @@ import ChatBubble from "./components/Chatbubble"
 
 export default function Home() {
   return (
-    <main className="h-full w-full">
-      <div className="flex flex-col items-center">
+    <main>
+      <div className="flex items-center justify-center w-full h-full">
         <div className="flex flex-col max-w-4xl w-full px-4 mt-48">
           {/* Name */}
           <motion.div
