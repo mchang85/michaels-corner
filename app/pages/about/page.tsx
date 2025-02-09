@@ -40,8 +40,10 @@ export default function About() {
                         animate={{ opacity: 1, x: 0 }}
                         transition={{ type: "spring", stiffness: 100, damping: 25, delay: 0.3 }}
                     >
-                        I fell in <span className="text-red">love</span> with the world of art, media, and technology at an early age.
-                        The way these mediums work together seamlessly to transport us into new worlds and settings is something I have always been inspired by.
+                        I fell in
+                        <span className="text-red">love</span>
+                        with the world of art, media, and technology at an early age.
+                        The way these mediums work together to transport us into new worlds and settings is something I have always been inspired by.
                         From the charm of classic video games to the captivating narratives of feature films,
                         nothing beats the feeling of being fully immersed in the moment.
 
@@ -55,9 +57,10 @@ export default function About() {
                     >
 
                         These passions have led me to explore paths in programming, ui/ux design, and more ways to create moments that leave lasting impressions.
-                        I enjoy working at the bridge between creative and techinical fields, and am constantly seeking new tools, techniques, and ideas
+                        I enjoy working at the bridge between creative and technical fields, and am constantly looking for new tools, techniques, and ideas
                         to refine my skills and bring my visions to life.
                     </motion.p>
+                    {/* Columns */}
                     <div className="flex flex-row leading-10 gap-10">
                         <motion.p
                             initial={{ opacity: 0, x: 100 }}
