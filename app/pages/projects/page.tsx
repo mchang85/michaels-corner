@@ -19,6 +19,7 @@ export default function Projects() {
                     description="Developing an arcade-style game in Godot to streamline training process and increase employee engagement. 
                     Inspired by my part-time work experience."
                 />
+
             </motion.div>
         </main>
     );

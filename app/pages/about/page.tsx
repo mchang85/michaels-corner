@@ -3,8 +3,8 @@ import * as motion from "motion/react-client"
 
 export default function About() {
     return (
-        <main className="flex items-center justify-center py-12">
-            <div className="flex flex-col sm:flex-row items-center justify-center max-w-7xl w-full h-full p-6 space-y-6 sm:space-x-20 sm:space-y-2">
+        <main className="flex items-center justify-center w-full h-full">
+            <div className="flex flex-col sm:flex-row items-center justify-center max-w-7xl p-6 space-y-6 sm:space-x-20 sm:space-y-2">
                 {/* Portrait */}
                 <motion.div
                     initial={{ opacity: 0, x: -100 }}
@@ -24,7 +24,7 @@ export default function About() {
                     <motion.h1
                         initial={{ opacity: 0, x: 100 }}
                         animate={{ opacity: 1, x: 0 }}
-                        transition={{ type: "spring", stiffness: 100, damping: 25, delay: 0.2 }}
+                        transition={{ type: "spring", stiffness: 100, damping: 25, delay: 0.3 }}
                         className="font-[fafo] text-5xl md:text-6xl text-blue text-center sm:text-left">
                         <motion.span
                             animate={{ rotate: [0, 15, -15, 15, 0] }}
@@ -33,7 +33,7 @@ export default function About() {
                         >
                             👋
                         </motion.span>
-                        <span> i&apos;m michael!</span>
+                        <span> so.. who am i?</span>
                     </motion.h1>
                     <motion.p
                         initial={{ opacity: 0, x: 100 }}
@@ -70,7 +70,7 @@ export default function About() {
                             <br />
                             🎨 ui/ux design
                             <br />
-                            🕹️ game design & &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;development
+                            🕹️ game design & development
                         </motion.p>
                         <motion.p
                             initial={{ opacity: 0, x: 100 }}
@@ -83,7 +83,7 @@ export default function About() {
                             <br />
                             🎧 making Spotify playlists
                             <br />
-                            📷 practicing amateur &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;photography
+                            📷 practicing photography
                         </motion.p>
                     </div>
                 </motion.div>
