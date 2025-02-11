@@ -116,6 +116,13 @@ const Navbar = () => {
                     >
                         ABOUT
                     </Link>
+                    <Link
+                        href="https://drive.google.com/file/d/1AxLbhBlEe7NUrERbya9bGG5koabBqhC5/view?usp=sharing"
+                        target="_blank"
+                        className={`inline-flex items-center transition-all duration-150 hover:text-blue ${activePage("/pages/about")}`}
+                    >
+                        RESUME
+                    </Link>
                 </div>
                 {/* Nav links - Mobile */}
                 <motion.div
@@ -145,6 +152,14 @@ const Navbar = () => {
                         onClick={() => setIsMenuOpen(false)}
                     >
                         ABOUT
+                    </Link>
+                    <Link
+                        href="https://drive.google.com/file/d/1AxLbhBlEe7NUrERbya9bGG5koabBqhC5/view?usp=sharing"
+                        target="_blank"
+                        className={`font-mono ${activePage("/pages/about")}`}
+                        onClick={() => setIsMenuOpen(false)}
+                    >
+                        RESUME
                     </Link>
                     {/* Icon links - Mobile */}
                     <div className="flex space-x-4">
