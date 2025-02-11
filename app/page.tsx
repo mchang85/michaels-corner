@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <main>
       <div className="flex items-center justify-center w-full h-full">
-        <div className="flex flex-col max-w-4xl w-full px-4 mt-48">
+        <div className="flex flex-col max-w-4xl w-full px-4 sm:mt-48">
           {/* Name */}
           <motion.div
             initial={{ opacity: 0, y: -50 }}
@@ -28,11 +28,12 @@ export default function Home() {
             <div className="font-sans text-lg sm:text-xl">
               is currently a
               <span className="mx-3">
-                <ChatBubble />
+                <ChatBubble /> !
               </span>
-              and studying ui/ux, frontend development, game dev, as well as
-              countless other ways to create experiences for others that leave
-              <span className="font-bold"> meaningful impressions</span>.
+              <br />
+              He is studying ui/ux and front-end dev +
+              other ways to create visual experiences for others that leave
+              <span className="font-bold"> meaningful and lasting impressions</span>.
             </div>
           </motion.div>
 
@@ -71,7 +72,7 @@ export default function Home() {
           </motion.div>
         </div>
 
-        <div className="absolute bottom-4 w-full text-right font-mono px-4">
+        <div className="hidden sm:flex justify-end absolute bottom-4 w-full font-mono px-4">
           <p className="text-sm text-grey">coded with <span className="text-red">&lt;3</span></p>
         </div>
       </div>

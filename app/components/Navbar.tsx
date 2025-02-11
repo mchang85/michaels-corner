@@ -86,7 +86,7 @@ const Navbar = () => {
                     aria-label="Toggle menu"
                 >
                     <svg
-                        className="w-6 h-6 fill-black"
+                        className="w-6 h-6 fill-blue"
                         viewBox="0 0 24 24"
                     >
                         {isMenuOpen ? (
@@ -118,7 +118,13 @@ const Navbar = () => {
                     </Link>
                 </div>
                 {/* Nav links - Mobile */}
-                <div className={`${isMenuOpen ? 'flex' : 'hidden'} md:hidden absolute top-16 left-0 right-0 bg-white flex-col items-center py-2 shadow-md space-y-3`}>
+                <motion.div
+                    initial={{ opacity: 0 }}
+                    animate={{
+                        opacity: isMenuOpen ? 1 : 0
+                    }}
+                    transition={{ duration: 0.2 }}
+                    className={`${isMenuOpen ? 'flex' : 'hidden'} md:hidden absolute top-20 left-0 right-0 bg-white flex-col items-center py-2 shadow-md space-y-3`}>
                     <Link
                         href="/pages/projects"
                         className={`font-mono ${activePage("/pages/projects")}`}
@@ -152,7 +158,7 @@ const Navbar = () => {
                             <EmailIcon />
                         </a>
                     </div>
-                </div>
+                </motion.div>
                 {/* Icon links - Desktop */}
                 <div className="hidden md:flex space-x-4">
                     <a href="https://www.linkedin.com/in/mchang17/" target="_blank">

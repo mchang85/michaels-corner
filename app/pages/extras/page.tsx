@@ -49,7 +49,7 @@ export default function Extras() {
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ type: "spring", stiffness: 100, damping: 25, delay: .7 }}
                         className="mb-12">
-                        <h2 className="font-mono text-lg sm:text-xl mb-2 p-3">fujifilm x-t30 II w/ 35mm f/2</h2>
+                        <h2 className="font-mono text-lg sm:text-xl mb-2 p-3">- fujifilm x-t30 II w/ 35mm f/2</h2>
                         <div className="columns-1 sm:columns-2 lg:columns-3 gap-4 p-4">
                             <div className="mb-4">
                                 <Image
