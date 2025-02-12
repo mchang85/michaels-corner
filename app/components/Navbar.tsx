@@ -119,7 +119,7 @@ const Navbar = () => {
                     <Link
                         href="https://drive.google.com/file/d/1AxLbhBlEe7NUrERbya9bGG5koabBqhC5/view?usp=sharing"
                         target="_blank"
-                        className={`inline-flex items-center transition-all duration-150 hover:text-blue ${activePage("/pages/about")}`}
+                        className={`inline-flex items-center transition-all duration-150 hover:text-blue}`}
                     >
                         RESUME
                     </Link>
@@ -156,8 +156,6 @@ const Navbar = () => {
                     <Link
                         href="https://drive.google.com/file/d/1AxLbhBlEe7NUrERbya9bGG5koabBqhC5/view?usp=sharing"
                         target="_blank"
-                        className={`font-mono ${activePage("/pages/about")}`}
-                        onClick={() => setIsMenuOpen(false)}
                     >
                         RESUME
                     </Link>
