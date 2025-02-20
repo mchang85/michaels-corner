@@ -3,10 +3,8 @@ import { Libre_Baskerville, DM_Sans, Space_Mono } from "next/font/google";
 import localFont from "next/font/local";
 import "./globals.css";
 import Navbar from "./components/Navbar";
-import { Analytics } from "@vercel/analytics/react"
-import { SpeedInsights } from "@vercel/speed-insights/next"
-
-
+import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 const libreBaskerville = Libre_Baskerville({
   variable: "--font-libre-baskerville",
@@ -31,15 +29,15 @@ const fafo = localFont({
   src: [
     {
       path: "./fonts/fafo-sans-bold.woff2",
-      weight: "400"
+      weight: "400",
     },
     {
       path: "./fonts/fafo-sans-bold.woff2",
-      weight: "700"
-    }
+      weight: "700",
+    },
   ],
-  variable: "--font-fafo"
-})
+  variable: "--font-fafo",
+});
 
 export const metadata: Metadata = {
   title: "Michael's Corner",
